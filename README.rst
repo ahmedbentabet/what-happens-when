@@ -29,22 +29,20 @@ The "g" key is pressed
 ----------------------
 When you press the "g" key, the browser first analyzes the text present in the address bar to determine the user's intent:
 
-* **URL Detection:** The browser checks for patterns like "http://", "https://", or "www." to identify potential URLs. 
-* **Search Intent:** If no URL pattern is found, the browser assumes the user is entering a search query.
+- **URL Detection:** The browser checks for patterns like "http://", "https://", or "www." to identify potential URLs. 
+- **Search Intent:** If no URL pattern is found, the browser assumes the user is entering a search query.
 
-**Based on the detected intent, the browser proceeds as follows:**
+Based on the detected intent, the browser proceeds as follows:
 
-* **URL:** The browser parses the URL, performs a DNS lookup, and initiates a connection to the server. The "enter" key is not required at this stage.
-* **Search Query:** The browser waits for the user to finish typing and press "Enter" before passing the query to the default search engine.
+- **URL:** The browser parses the URL, performs a DNS lookup, and initiates a connection to the server. The "enter" key is not required at this stage.
+- **Search Query:** The browser waits for the user to finish typing and press "Enter" before passing the query to the default search engine.
 
-**Autocomplete Functionality:**
+- **Autocomplete Functionality:** As you continue typing, the browser's autocomplete feature kicks in, offering suggestions based on:
 
-As you continue typing, the browser's autocomplete feature kicks in, offering suggestions based on:
-
-* Browsing history
-* Bookmarks
-* Cookies
-* Popular searches
+      - Browsing history
+      - Bookmarks
+      - Cookies
+      - Popular searches
 
 The suggestions are refined with each keypress, helping you reach your desired destination faster.
 
